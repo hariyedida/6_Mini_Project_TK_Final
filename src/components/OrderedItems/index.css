@@ -1,0 +1,61 @@
+.ordered-items-mobile-li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.ordered-items-li-image {
+  width: 136px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+.ordered-items-li-details-container {
+  margin-left: 20px;
+}
+
+.ordered-items-li-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+
+.ordered-items-li-button {
+  background-color: transparent;
+  border: 1px solid #475569;
+  margin: none;
+  padding: 3px;
+  border-radius: 3px;
+  height: 22px;
+  width: 22px;
+}
+
+.ordered-items-li-button-icons {
+  width: 10px;
+  height: 10px;
+}
+
+.ordered-items-li-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffa412;
+  margin: 0px;
+}
+
+.ordered-items-li-quantity {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin: 0px;
+}

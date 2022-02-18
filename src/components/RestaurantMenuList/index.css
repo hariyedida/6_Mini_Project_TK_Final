@@ -1,0 +1,79 @@
+.rest-menu-list-items-li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 140px;
+}
+
+.restaurent-menu-list-images {
+  width: 160px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.rest-menu-li-item-details-cont {
+  margin-left: 10px;
+  width: 130px;
+  height: auto;
+}
+
+.rest-menu-li-items-rating-cont {
+  display: flex;
+  align-items: center;
+}
+
+.rest-menu-li-item-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin: 0px;
+}
+
+.rest-menu-li-items-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #334155;
+  margin: 0px;
+}
+
+.rest-menu-li-items-rating-icon {
+  color: #ffcc00;
+}
+
+.rest-menu-li-items-rating-label {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #1e293b;
+  margin: 0px;
+  margin-left: 5px;
+}
+
+.rest-menu-li-items-button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffa412;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 5.7931px;
+  background-color: transparent;
+  border: 1px solid #ffa412;
+  border-radius: 5px;
+  cursor: pointer;
+}

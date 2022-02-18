@@ -1,0 +1,172 @@
+.rest-menu-rest-detail-container {
+  width: 100%;
+  height: auto;
+  background: #333333;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .rest-menu-rest-detail-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.rest-menu-rest-img-cont {
+  position: relative;
+  width: 150px;
+  height: 190px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .rest-menu-rest-img-cont {
+    margin: 20px;
+    width: 245px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+}
+
+.rest-menu-mobile-rest-image {
+  width: 221px;
+  height: 221px;
+  border-radius: 134px;
+  position: absolute;
+  left: -88px;
+  top: -54px;
+}
+
+.rest-menu-desktop-rest-image {
+  width: 221px;
+  height: 221px;
+  border-radius: 10px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .rest-menu-mobile-rest-image {
+    display: none;
+  }
+  .rest-menu-desktop-rest-image {
+    display: block;
+  }
+}
+
+.rest-menu-detail-rating-review-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.rest-menu-detail-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 240px;
+}
+
+.rest-menu-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 0px;
+  margin-bottom: 12px;
+}
+
+.rest-menu-cuisine {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.rest-menu-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.rest-menu-rating-container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.rest-menu-star-icon {
+  color: #ffffff;
+}
+
+.rest-menu-star-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin: 0px;
+  padding-left: 5px;
+}
+
+.rest-menu-user-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+  margin: 0px;
+  margin-top: 12px;
+}
+
+.rest-menu-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.rest-menu-cost-for {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #e2e8f0;
+  margin: 0px;
+  margin-top: 12px;
+}
+
+.rest-menu-cont {
+  color: #e2e8f0;
+  background-color: #e2e8f0;
+  height: 40px;
+  margin: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+}

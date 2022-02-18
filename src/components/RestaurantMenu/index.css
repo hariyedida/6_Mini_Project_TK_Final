@@ -1,0 +1,17 @@
+.rest-menu-container {
+  width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+  .rest-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rest-menu-items-list {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

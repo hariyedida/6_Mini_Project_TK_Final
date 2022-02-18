@@ -1,0 +1,82 @@
+.all-rest-li {
+  list-style-type: none;
+  margin: 10px 5px 10px 5px;
+  width: 340px;
+  height: 110px;
+}
+
+.all-rest-link-detail {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.all-rest-image {
+  width: 160px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.all-rest-details-cont {
+  width: 160px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.all-rest-title {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin: 0px;
+}
+
+.all-rest-type {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #64748b;
+  margin: 0px;
+}
+
+.all-rest-rating-icon {
+  color: #ffcc00;
+  margin-right: 5px;
+}
+
+.all-rest-rating-cont {
+  display: flex;
+  margin-top: 10px;
+}
+
+.all-rest-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #1e293b;
+  margin: 0px;
+  margin-right: 3px;
+}
+
+.all-rest-user-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #64748b;
+  margin: 0px;
+}
